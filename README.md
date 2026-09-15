@@ -30,8 +30,3 @@ For ARM64 architectures (like AWS Graviton or Apple Silicon):
 wget https://github.com/hplustree/rtk-debian-builds/releases/download/v0.29.0/rtk-v0.29.0-aarch64-linux-bookworm.tar.gz
 ```
 
-## Integration with `mostlyagent2`
-
-The `mostlyagent2` repository utilizes these builds to significantly speed up its CI/CD pipeline and local development setup:
-- **Optimized Docker Builds:** `mostlyagent2` uses a multi-layered approach, separating system-level dependencies (which includes fetching `rtk` from this repository's releases) from the application codebase.
-- **Faster Build Times:** Downloading these pre-built binaries reduces the `rtk` setup time in the deployment workflow from minutes to just seconds, avoiding repeated installations or builds from scratch.
