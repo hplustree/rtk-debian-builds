@@ -4,7 +4,7 @@ Custom builds of `rtk-ai` for Debian Bookworm (GLIBC 2.36).
 
 ## Purpose
 
-This repository was created to store pre-built `rtk-ai` binaries to optimize the deployment pipeline for the `mostlyagent2` project. 
+This repository was created to store pre-built `rtk-ai` binaries to optimize the deployment pipeline. 
 
 By hosting custom Debian Bookworm builds here, we decouple the heavy lifting of building `rtk-ai` from the main application. 
 
